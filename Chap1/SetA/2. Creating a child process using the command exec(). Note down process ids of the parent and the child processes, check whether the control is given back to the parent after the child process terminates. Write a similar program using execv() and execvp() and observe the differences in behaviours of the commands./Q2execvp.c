@@ -13,6 +13,13 @@ int main(){
         replacing the current process with a new one. 
         In simpler terms, when a process calls exec(), 
         it stops executing its current code and starts running a new program.
+
+        The execvp() function in C is part of the exec family of functions used to execute a new program. 
+        Specifically, execvp() is used to replace the current process image with a new process image. 
+        It is useful for running a new program, specified by a filename, in place of the current process.
+
+        The key feature of execvp() is that it searches for the executable file in the directories listed in the PATH environment variable, 
+        similar to how a command is searched when typed into the shell.
     */
     pid_t pid;
     int stat;
