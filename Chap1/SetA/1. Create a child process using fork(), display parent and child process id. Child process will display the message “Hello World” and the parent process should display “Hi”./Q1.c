@@ -21,9 +21,10 @@ These types are generally used to ensure portability
 across different platforms by providing consistent type definitions.
 #include <sys/types.h>: For defining data types used in system calls (pid_t).
 */
+#include<sys/wait.h>
 int main(){
     pid_t pid; 
-    int Ipid;
+    int stat;
     /*
         In Unix-like operating systems, 
         pid_t is a data type defined in the sys/types.h header file. 
@@ -49,7 +50,6 @@ int main(){
         printf("Child Process:\n");
         printf("Child Process msg:hello world.\n");
         printf("Child Process PID:%d\n",pid);
-        //wait();
         /*
             When pid == 0 after a fork() call, 
             it indicates that the code is executing in the child process. 
@@ -63,6 +63,18 @@ int main(){
         printf("Parent Process:\n");
         printf("Parent Process msg:hi.\n");
         printf("Parent Process PID:%d\n",getpid());
+        wait(stat);
+        /*
+            For find information about status, we use 
+            WIF….macros
+            1. WIFEXITED(status): child exited normally 
+            2. WEXITSTATUS(status): return code when child exits
+            3. WIFSIGNALED(status): child exited because a signal was not caught 
+            4. WTERMSIG(status): gives the number of the terminating signal
+            5. WIFSTOPPED(status): child is stopped 
+•           6. WSTOPSIG(status): gives the number of the stop signal
+        */
+       printf("Child process Exit Status:%d\n",WIFEXITED(stat));
     }
     //common code:
     printf("Common code line run by both processes running in program PID=%d\n",getpid());
