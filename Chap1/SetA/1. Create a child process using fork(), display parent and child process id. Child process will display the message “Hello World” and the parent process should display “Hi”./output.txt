@@ -9,3 +9,26 @@ Parent Process msg:hi.
 Parent Process PID:7269
 Common code line run by both processes running in program PID=7269
 prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os/chap1/SetA$ 
+
+OUTPUT :
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ cd "/home/prajwal/Desktop/os/chap1/SetA/" && gcc tempCodeRunnerFile.c -o tempCodeRunnerFile && "/home/prajwal/Desktop/os/chap1/SetA/"tempCodeRunnerFile
+tempCodeRunnerFile.c: In function ‘main’:
+tempCodeRunnerFile.c:66:14: warning: passing argument 1 of ‘wait’ makes pointer from integer without a cast [-Wint-conversion]
+   66 |         wait(stat);
+      |              ^~~~
+      |              |
+      |              int
+In file included from tempCodeRunnerFile.c:24:
+/usr/include/x86_64-linux-gnu/sys/wait.h:83:27: note: expected ‘int *’ but argument is of type ‘int’
+   83 | extern __pid_t wait (int *__stat_loc);
+      |                      ~~~~~^~~~~~~~~~
+Parent Process:
+Parent Process msg:hi.
+Parent Process PID:4633
+Child Process:
+Child Process msg:hello world.
+Child Process PID:0
+Common code line run by both processes running in program PID=4635
+Child process Exit Status:0
+Common code line run by both processes running in program PID=4633
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os/chap1/SetA$ 
