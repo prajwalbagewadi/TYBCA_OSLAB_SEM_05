@@ -1,0 +1,44 @@
+cd "/home/prajwal/Desktop/os/chap1/SetA/" && gcc Q2execv.c -o Q2execv && "/home/prajwal/Desktop/os/chap1/SetA/"Q2execv
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ cd "/home/prajwal/Desktop/os/chap1/SetA/" && gcc Q2execv.c -o Q2execv && "/home/prajwal/Desktop/os/chap1/SetA/"Q2execv
+Process using execv().
+Parent Process in Execution.
+Parent Process(Pid:9211)
+Process using execv().
+Child Process in Execution.
+Child Process(Pid:9212)
+Tables:
+2*1=2
+2*2=4
+2*3=6
+2*4=8
+2*5=10
+2*6=12
+2*7=14
+2*8=16
+2*9=18
+2*10=20
+the child process(status:1)
+Parent Process in Execution.
+Common code line run by Parent process ctrl back to Parent(Pid=9211)
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os/chap1/SetA$ cd "/home/prajwal/Desktop/os/chap1/SetA/" && gcc Q2execvp.c -o Q2execvp && "/home/prajwal/Desktop/os/chap1/SetA/"Q2execvp
+Process using execvp().
+Parent Process in Execution.
+Parent Process(Pid:9254)
+Process using execvp().
+Child Process in Execution.
+Child Process(Pid:9255)
+Tables:
+2*1=2
+2*2=4
+2*3=6
+2*4=8
+2*5=10
+2*6=12
+2*7=14
+2*8=16
+2*9=18
+2*10=20
+the child process(status:1)
+Parent Process in Execution.
+Common code line run by Parent process ctrl back to Parent(Pid=9254)
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os/chap1/SetA$ 
