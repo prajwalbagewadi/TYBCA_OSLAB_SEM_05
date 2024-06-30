@@ -13,6 +13,10 @@ int main(){
         replacing the current process with a new one. 
         In simpler terms, when a process calls exec(), 
         it stops executing its current code and starts running a new program.
+
+        The execv() function in C is a system call that is used to execute a file in Unix-like operating systems. 
+        It is part of the exec family of functions, which are responsible for loading and executing a new program within the current process. 
+        Specifically, execv() is used to execute a program specified by its path name and a list of arguments provided directly as an array.
     */
     pid_t pid;
     int stat;
