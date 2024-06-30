@@ -63,7 +63,7 @@ int main(){
         printf("Parent Process:\n");
         printf("Parent Process msg:hi.\n");
         printf("Parent Process PID:%d\n",getpid());
-        wait(stat);
+        wait(&stat);
         /*
             For find information about status, we use 
             WIF….macros
