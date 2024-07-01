@@ -1,0 +1,10 @@
+cd "/home/prajwal/Desktop/os/chap1/SetA/" && gcc Q3.c -o Q3 && "/home/prajwal/Desktop/os/chap1/SetA/"Q3
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ cd "/home/prajwal/Desktop/os/chap1/SetA/" && gcc Q3.c -o Q3 && "/home/prajwal/Desktop/os/chap1/SetA/"Q3
+Parent Process in Execution:
+Parent Process in (Pid:7701):
+Parent Process in Sleep mode
+Child Process in Execution:
+Child Process in (Pid:0):
+Q1  Q1.c  Q2  Q2execv  Q2execv.c  Q2execvp  Q2execvp.c  Q3  Q3.c  simple  simple.c  tempCodeRunnerFile  tempCodeRunnerFile.c
+Current Process(Program) Execution (Pid:7701)
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os/chap1/SetA$ 
