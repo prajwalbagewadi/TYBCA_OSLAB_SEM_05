@@ -1,0 +1,18 @@
+cd "/home/prajwal/Desktop/os/chap1/SetB/" && gcc Q1.c -o Q1 && "/home/prajwal/Desktop/os/chap1/SetB/"Q1
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ cd "/home/prajwal/Desktop/os/chap1/SetB/" && gcc Q1.c -o Q1 && "/home/prajwal/Desktop/os/chap1/SetB/"Q1
+Parent Process in Execution.
+Parent Process (Pid:6104)
+Parent Process Terminated.
+
+current program Parent process(Pid:6104)
+child Process in Execution.
+Child Process (Pid:0)
+Parent Process (Pid:6105)
+
+sleep mode Active:
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os/chap1/SetB$ Child Process (Pid:0)
+Parent Process (Pid:6105)
+Child Process Terminated.
+
+current program Parent process(Pid:6105)
+^C
