@@ -8,18 +8,20 @@ call.
 #include<sys/wait.h>
 #include<stdio.h>
 int main(){
-    pid_t pid,retnice;
+    pid_t pid1,pid2,retnice;
     int stat;
-    pid=fork();
-    if(pid<0){
+    pid1=fork();
+    pid2=fork();
+    if(pid1<0 || pid2<0){
         printf("Child Process.Creation Error.\n");
         printf("Fork() system call Error.\n");
     }
-    else if(pid==0){
-        printf("Child process Executing:\n");
-        printf("Child process (Pid:%d)\n",pid);
-        printf("Parent process (Pid:%d)\n",getpid());
+    else if(pid1==0){
         retnice=nice(-5);
+        printf("Child process (pid1) Executing:\n");
+        printf("Child process (pid1)(Pid:%d)\n",pid1);
+        printf("Parent process (pid1)(Pid:%d)\n",getpid());
+        
         /*
             The nice() function in C is used to change the priority of a process. 
             By default, processes are started with a priority of 0. 
@@ -29,16 +31,38 @@ int main(){
             A higher nice value means a lower priority.nice value is +19 (low priority) 
             A lower nice value means a higher priority.to -20 (high priority).
         */
-        printf("Child process (Pid:%d)\n",retnice);
-        printf("child process in sleep mode.\n");
+        printf("Child process (pid1)(Pid:%d)\n",retnice);
+        printf("child process (pid1)in sleep mode.\n");
         sleep(5);
-        printf("Child process Terminated.\n\n");
+        printf("Child process (pid1) Terminated.\n\n");
+        return 1;
+    }
+    else if(pid2==0){
+        retnice=nice(3);
+        printf("Child process (pid2) Executing:\n");
+        printf("Child process (pid2)(Pid:%d)\n",pid2);
+        printf("Parent process (pid2)(Pid:%d)\n",getpid());
+        
+        /*
+            The nice() function in C is used to change the priority of a process. 
+            By default, processes are started with a priority of 0. 
+            The nice() function can be used to increase or decrease this priority, 
+            affecting the scheduling of the process.
+
+            A higher nice value means a lower priority.nice value is +19 (low priority) 
+            A lower nice value means a higher priority.to -20 (high priority).
+        */
+        printf("Child process (pid2)(Pid:%d)\n",retnice);
+        printf("child process (pid2)in sleep mode.\n");
+        sleep(5);
+        printf("Child process (pid2) Terminated.\n\n");
         return 1;
     }
     else{
+        retnice=nice(4);
         printf("Parent process Executing:\n");
         printf("Parent process (Pid:%d)\n",getpid());
-        retnice=nice(4);
+        
         printf("Parent process (Pid:%d)\n",retnice);
         printf("Parent process in sleep mode.\n");
         printf("Parent process waiting for Child to complete.\n");
