@@ -17,3 +17,37 @@ Parent process Terminated.
 
 Parent process current program (Pid:11457).
 prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os/chap1/SetB$
+
+output:
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ cd "/home/prajwal/Desktop/os/chap1/SetB/" && gcc Q2.c -o Q2 && "/home/prajwal/Desktop/os/chap1/SetB/"Q2
+Parent process Executing:
+Child process (pid1) Executing:
+Parent process (Pid:12512)
+Child process (pid1) Executing:
+Child process (pid2) Executing:
+Child process (pid1)(Pid:0)
+Parent process (pid1)(Pid:12515)
+Child process (pid1)(Pid:-1)
+Child process (pid2)(Pid:0)
+child process (pid1)in sleep mode.
+Parent process (pid2)(Pid:12514)
+Child process (pid2)(Pid:3)
+child process (pid2)in sleep mode.
+Child process (pid1)(Pid:0)
+Parent process (pid1)(Pid:12513)
+Child process (pid1)(Pid:-1)
+child process (pid1)in sleep mode.
+Parent process (Pid:4)
+Parent process in sleep mode.
+Parent process waiting for Child to complete.
+Child process (pid1) Terminated.
+
+Child process (pid2) Terminated.
+
+Child process (pid1) Terminated.
+
+Child Process status:(256).
+Parent process Terminated.
+
+Parent process current program (Pid:12512).
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os/chap1/SetB$ 
