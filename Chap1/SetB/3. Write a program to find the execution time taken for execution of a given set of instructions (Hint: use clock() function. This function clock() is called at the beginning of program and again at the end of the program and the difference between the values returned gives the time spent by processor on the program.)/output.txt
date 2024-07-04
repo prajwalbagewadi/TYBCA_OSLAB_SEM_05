@@ -1,0 +1,19 @@
+cd "/home/prajwal/Desktop/os/chap1/SetB/" && gcc Q3.c -o Q3 && "/home/prajwal/Desktop/os/chap1/SetB/"Q3
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ cd "/home/prajwal/Desktop/os/chap1/SetB/" && gcc Q3.c -o Q3 && "/home/prajwal/Desktop/os/chap1/SetB/"Q3
+Exec time:
+Start clock:(8995)
+the Loop under Exec:0
+the Loop under Exec:1
+the Loop under Exec:2
+the Loop under Exec:3
+the Loop under Exec:4
+the Loop under Exec:5
+the Loop under Exec:6
+the Loop under Exec:7
+the Loop under Exec:8
+the Loop under Exec:9
+the Loop under Exec:10
+end clock:(9114)
+total Execution Time in clock ticks:119
+total Execution Time:0.000119
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os/chap1/SetB$
