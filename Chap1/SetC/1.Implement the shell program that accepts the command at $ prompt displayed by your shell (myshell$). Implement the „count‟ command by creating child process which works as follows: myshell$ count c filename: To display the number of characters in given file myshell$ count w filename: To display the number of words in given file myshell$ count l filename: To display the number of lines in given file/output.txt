@@ -1,0 +1,107 @@
+python3 -u "/home/prajwal/Desktop/os/chap1/SetC/Q1.py"
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ python3 -u "/home/prajwal/Desktop/os/chap1/SetC/Q1.py"
+myshell$ count c /home/prajwal/Desktop/os/chap1/SetC/file.txt
+arg0=count arg1=c arg2=/home/prajwal/Desktop/os/chap1/SetC/file.txt
+Parent process in Execution.pid=4936
+Child Process. in Execution.pid=0
+number of Characters in /home/prajwal/Desktop/os/chap1/SetC/file.txt is 318
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ python3 -u "/home/prajwal/Desktop/os/chap1/SetC/Q1.py"
+myshell$ count w /home/prajwal/Desktop/os/chap1/SetC/file.txt
+arg0=count arg1=w arg2=/home/prajwal/Desktop/os/chap1/SetC/file.txt
+Parent process in Execution.pid=5012
+Child Process. in Execution.pid=0
+lines=['Fork() System Call:', 'To create a new process fork() system call is used. It takes no arguments and returns a', 'process ID. The process that creates new process is called as Parent Process while newly', 'created process is called as Child Process. Child process is exact copy of parent process.', 'Syntax of this system call is.'] 
+ type=<class 'list'>
+line=Fork() System Call: 
+ type=<class 'str'>
+l=['Fork()', 'System', 'Call:'] 
+ type=<class 'list'>
+l=Fork() =1
+l=System =2
+l=Call: =3
+line=To create a new process fork() system call is used. It takes no arguments and returns a 
+ type=<class 'str'>
+l=['To', 'create', 'a', 'new', 'process', 'fork()', 'system', 'call', 'is', 'used.', 'It', 'takes', 'no', 'arguments', 'and', 'returns', 'a'] 
+ type=<class 'list'>
+l=To =4
+l=create =5
+l=a =6
+l=new =7
+l=process =8
+l=fork() =9
+l=system =10
+l=call =11
+l=is =12
+l=used. =13
+l=It =14
+l=takes =15
+l=no =16
+l=arguments =17
+l=and =18
+l=returns =19
+l=a =20
+line=process ID. The process that creates new process is called as Parent Process while newly 
+ type=<class 'str'>
+l=['process', 'ID.', 'The', 'process', 'that', 'creates', 'new', 'process', 'is', 'called', 'as', 'Parent', 'Process', 'while', 'newly'] 
+ type=<class 'list'>
+l=process =21
+l=ID. =22
+l=The =23
+l=process =24
+l=that =25
+l=creates =26
+l=new =27
+l=process =28
+l=is =29
+l=called =30
+l=as =31
+l=Parent =32
+l=Process =33
+l=while =34
+l=newly =35
+line=created process is called as Child Process. Child process is exact copy of parent process. 
+ type=<class 'str'>
+l=['created', 'process', 'is', 'called', 'as', 'Child', 'Process.', 'Child', 'process', 'is', 'exact', 'copy', 'of', 'parent', 'process.'] 
+ type=<class 'list'>
+l=created =36
+l=process =37
+l=is =38
+l=called =39
+l=as =40
+l=Child =41
+l=Process. =42
+l=Child =43
+l=process =44
+l=is =45
+l=exact =46
+l=copy =47
+l=of =48
+l=parent =49
+l=process. =50
+line=Syntax of this system call is. 
+ type=<class 'str'>
+l=['Syntax', 'of', 'this', 'system', 'call', 'is.'] 
+ type=<class 'list'>
+l=Syntax =51
+l=of =52
+l=this =53
+l=system =54
+l=call =55
+l=is. =56
+number of words in /home/prajwal/Desktop/os/chap1/SetC/file.txt is 56
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ python3 -u "/home/prajwal/Desktop/os/chap1/SetC/Q1.py"
+myshell$ count l /home/prajwal/Desktop/os/chap1/SetC/file.txt
+arg0=count arg1=l arg2=/home/prajwal/Desktop/os/chap1/SetC/file.txt
+Parent process in Execution.pid=5106
+Child Process. in Execution.pid=0
+line=Fork() System Call:
+ =1
+line=To create a new process fork() system call is used. It takes no arguments and returns a
+ =2
+line=process ID. The process that creates new process is called as Parent Process while newly
+ =3
+line=created process is called as Child Process. Child process is exact copy of parent process.
+ =4
+line=Syntax of this system call is. =5
+number of lines in /home/prajwal/Desktop/os/chap1/SetC/file.txt is 5
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ 
