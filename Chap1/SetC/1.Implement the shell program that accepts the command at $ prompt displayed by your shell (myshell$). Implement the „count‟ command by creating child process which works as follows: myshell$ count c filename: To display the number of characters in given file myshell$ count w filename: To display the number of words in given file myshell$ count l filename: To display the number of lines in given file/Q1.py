@@ -56,10 +56,12 @@ def main():
             elif(args[1]=='l'):
                 cntlines(args[2])
             else:
-                print("Error in command parameter.") 
+                print("Error in command parameter.")
+            print(f"child process Finished. pid:{pid}") 
         else:
             print(f"Parent process in Execution.pid={os.getpid()}")
             os.wait() #parent in wait state.
+            print(f"Parent process Finished. pid:{os.getpid()}")
     else:
         print(f"Error in command. command:count c|w|l filename.")
 
