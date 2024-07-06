@@ -1,0 +1,52 @@
+python3 -u "/home/prajwal/Desktop/os/chap1/SetC/Q2.py"
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ python3 -u "/home/prajwal/Desktop/os/chap1/SetC/Q2.py"
+main():
+myshell$ list f /home/prajwal/Desktop/os/chap1/SetC
+arg0=list, arg1=f, arg2=/home/prajwal/Desktop/os/chap1/SetC
+parent process Created. pid:15531
+child process Created. pid:0
+filename=Q1.py
+
+filename=file.txt
+
+filename=Q2.py
+
+filename=Q1.sh
+
+child process Finished. pid:0
+parent process Finished. pid:15531
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ python3 -u "/home/prajwal/Desktop/os/chap1/SetC/Q2.py"
+main():
+myshell$ list n /home/prajwal/Desktop/os/chap1/SetC
+arg0=list, arg1=n, arg2=/home/prajwal/Desktop/os/chap1/SetC
+parent process Created. pid:15661
+child process Created. pid:0
+filename=Q1.py =1
+
+filename=file.txt =2
+
+filename=Q2.py =3
+
+filename=Q1.sh =4
+
+total number of files in:/home/prajwal/Desktop/os/chap1/SetC is 4
+
+child process Finished. pid:0
+parent process Finished. pid:15661
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ python3 -u "/home/prajwal/Desktop/os/chap1/SetC/Q2.py"
+main():
+myshell$ list i /home/prajwal/Desktop/os/chap1/SetC
+arg0=list, arg1=i, arg2=/home/prajwal/Desktop/os/chap1/SetC
+parent process Created. pid:15752
+child process Created. pid:0
+filepath:/home/prajwal/Desktop/os/chap1/SetC/Q1.py
+filename:Q1.py inode:1444618
+filepath:/home/prajwal/Desktop/os/chap1/SetC/file.txt
+filename:file.txt inode:1441856
+filepath:/home/prajwal/Desktop/os/chap1/SetC/Q2.py
+filename:Q2.py inode:1457346
+filepath:/home/prajwal/Desktop/os/chap1/SetC/Q1.sh
+filename:Q1.sh inode:1445195
+child process Finished. pid:0
+parent process Finished. pid:15752
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ ^C
