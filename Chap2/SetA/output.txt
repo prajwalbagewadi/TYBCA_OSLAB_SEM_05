@@ -1,0 +1,74 @@
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os$ cd "/home/prajwal/Desktop/os/Chap2/SetA/" && gcc Q1v3.c -o Q1v3 && "/home/prajwal/Desktop/os/Chap2/SetA/"Q1v3
+Enter No of Processes:4
+Process Data input:
+
+Process id:0
+Enter Arrival_time:0
+Enter Cpu_burst:2
+
+Process Data input:
+
+Process id:1
+Enter Arrival_time:1
+Enter Cpu_burst:2
+
+Process Data input:
+
+Process id:2
+Enter Arrival_time:5
+Enter Cpu_burst:3
+
+Process Data input:
+
+Process id:3
+Enter Arrival_time:6
+Enter Cpu_burst:4
+
+
+process Stats:
+process id:0
+process id:0 Arrival_time:0
+process id:0 Cpu_burst:2
+process id:0 completion_time:2
+process id:0 turn_around_time:2
+process id:0 waiting_time:0
+process id:0 response_time:0
+
+
+process Stats:
+process id:1
+process id:1 Arrival_time:1
+process id:1 Cpu_burst:2
+process id:1 completion_time:3
+process id:1 turn_around_time:2
+process id:1 waiting_time:0
+process id:1 response_time:0
+
+
+process Stats:
+process id:2
+process id:2 Arrival_time:5
+process id:2 Cpu_burst:3
+process id:2 completion_time:8
+process id:2 turn_around_time:3
+process id:2 waiting_time:0
+process id:2 response_time:0
+
+
+process Stats:
+process id:3
+process id:3 Arrival_time:6
+process id:3 Cpu_burst:4
+process id:3 completion_time:10
+process id:3 turn_around_time:4
+process id:3 waiting_time:0
+process id:3 response_time:0
+
+gantt_chart:
+process 0: 0---2
+process 1: 4---8
+process 2: 10---17
+process 3: 19---27
+Average Turn_around_time=2
+Average waiting_time=0
+prajwal@prajwal-VMware-Virtual-Platform:~/Desktop/os/Chap2/SetA$ 
