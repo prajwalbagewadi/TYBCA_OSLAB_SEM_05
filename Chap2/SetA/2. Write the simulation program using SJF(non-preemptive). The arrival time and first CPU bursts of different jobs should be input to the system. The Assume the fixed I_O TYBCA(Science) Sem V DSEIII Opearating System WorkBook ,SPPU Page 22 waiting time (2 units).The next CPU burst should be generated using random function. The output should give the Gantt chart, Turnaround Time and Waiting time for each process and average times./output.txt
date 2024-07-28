@@ -1,0 +1,175 @@
+PS C:\Users\bagew\Documents\OSprograms\Chap2SetA_Q2> cd "c:\Users\bagew\Documents\OSprograms\Chap2SetA_Q2\" ; if ($?) { gcc q2.c -o q2 } ; if ($?) { .\q2 }
+SJF Non Preemptive Scheduling:
+Enter No of Processes:4
+
+ Enter Process Data:
+Enter AT for pid:1:1
+Enter BT for pid:1:3
+pid:1: AT:1:
+pid:1: BT:3:
+
+ Enter Process Data:
+Enter AT for pid:2:2
+Enter BT for pid:2:4
+pid:2: AT:2:
+pid:2: BT:4:
+
+ Enter Process Data:
+Enter AT for pid:3:1
+Enter BT for pid:3:2
+pid:3: AT:1:
+pid:3: BT:2:
+
+ Enter Process Data:
+Enter AT for pid:4:4
+Enter BT for pid:4:4
+pid:4: AT:4:
+pid:4: BT:4:
+
+ Process Data:
+pid:1:
+pid:1: AT:1:
+pid:1: BT:3:
+pid:1: CT:0:
+pid:1: TAT:0:
+pid:1: WT:0:
+pid:1: RT:0:
+
+
+ Process Data:
+pid:2:
+pid:2: AT:2:
+pid:2: BT:4:
+pid:2: CT:0:
+pid:2: TAT:0:
+pid:2: WT:0:
+pid:2: RT:0:
+
+
+ Process Data:
+pid:3:
+pid:3: AT:1:
+pid:3: BT:2:
+pid:3: CT:0:
+pid:3: TAT:0:
+pid:3: WT:0:
+pid:3: RT:0:
+
+
+ Process Data:
+pid:4:
+pid:4: AT:4:
+pid:4: BT:4:
+pid:4: CT:0:
+pid:4: TAT:0:
+pid:4: WT:0:
+pid:4: RT:0:
+
+
+ Process Data:
+pid:3:
+pid:3: AT:1:
+pid:3: BT:2:
+pid:3: CT:0:
+pid:3: TAT:0:
+pid:3: WT:0:
+pid:3: RT:0:
+
+
+ Process Data:
+pid:1:
+pid:1: AT:1:
+pid:1: BT:3:
+pid:1: CT:0:
+pid:1: TAT:0:
+pid:1: WT:0:
+pid:1: RT:0:
+
+
+ Process Data:
+pid:2:
+pid:2: AT:2:
+pid:2: BT:4:
+pid:2: CT:0:
+pid:2: TAT:0:
+pid:2: WT:0:
+pid:2: RT:0:
+
+
+ Process Data:
+pid:4:
+pid:4: AT:4:
+pid:4: BT:4:
+pid:4: CT:0:
+pid:4: TAT:0:
+pid:4: WT:0:
+pid:4: RT:0:
+
+Gantt_Chart:
+pid:3: :1:--:5:
+pid:3: CT:5:
+pid:3: TAT:4:
+pid:3: WT:2:
+pid:3: RT:2:
+
+pid:1: :5:--:9:
+pid:1: CT:9:
+pid:1: TAT:8:
+pid:1: WT:6:
+pid:1: RT:6:
+
+pid:2: :9:--:19:
+pid:2: CT:19:
+pid:2: TAT:17:
+pid:2: WT:9:
+pid:2: RT:9:
+
+pid:4: :19:--:26:
+pid:4: CT:26:
+pid:4: TAT:22:
+pid:4: WT:17:
+pid:4: RT:17:
+
+
+ Process Data:
+pid:3:
+pid:3: AT:1:
+pid:3: BT:2:
+pid:3: CT:5:
+pid:3: TAT:4:
+pid:3: WT:2:
+pid:3: RT:2:
+
+
+ Process Data:
+pid:1:
+pid:1: AT:1:
+pid:1: BT:2:
+pid:1: CT:9:
+pid:1: TAT:8:
+pid:1: WT:6:
+pid:1: RT:6:
+
+
+ Process Data:
+pid:2:
+pid:2: AT:2:
+pid:2: BT:8:
+pid:2: CT:19:
+pid:2: TAT:17:
+pid:2: WT:9:
+pid:2: RT:9:
+
+
+ Process Data:
+pid:4:
+pid:4: AT:4:
+pid:4: BT:5:
+pid:4: CT:26:
+pid:4: TAT:22:
+pid:4: WT:17:
+pid:4: RT:17:
+
+Average Turn Around Time:12.750000:
+Average Waiting Time:8.500000:
+PS C:\Users\bagew\Documents\OSprograms\Chap2SetA_Q2> 
