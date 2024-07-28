@@ -43,7 +43,8 @@ void get_gantt_chart(struct process p[],int size){
         if(current_time<p[i].arrival_time){ // for process arrival time can be before or after current time clock.
             current_time=p[i].arrival_time;
         }
-        printf("process %d: %d---%d\n",p[i].pid,current_time,current_time+p[i].cpu_burst);
+        //printf("process %d: %d---%d\n",p[i].pid,current_time,current_time+p[i].cpu_burst);
+         printf("process %d: %d---%d\n",p[i].pid,current_time,current_time+p[i].cpu_burst+Io_wait);
         p[i+1].cpu_burst=rand()%10+1; // generate cpu burst with rand()function rand()%n+1 for generating random number between 0 to n
         current_time+=p[i].cpu_burst+Io_wait; // add Io_wait time in current time clock
     }
