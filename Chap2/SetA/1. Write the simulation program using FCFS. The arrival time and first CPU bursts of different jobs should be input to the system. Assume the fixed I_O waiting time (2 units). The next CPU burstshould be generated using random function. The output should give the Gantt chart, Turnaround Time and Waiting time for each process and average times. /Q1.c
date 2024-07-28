@@ -1,6 +1,6 @@
 /*
 1. Write the simulation program using FCFS. The arrival time and first CPU bursts of
-different jobs should be input to the system. Assume the fixed I/O waiting time (2
+different jobs should be input to the system. Assume the fixed I_O waiting time (2
 units). The next CPU burstshould be generated using random function. The output
 should give the Gantt chart, Turnaround Time and Waiting time for each process and
 average times. 
