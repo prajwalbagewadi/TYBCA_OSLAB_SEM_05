@@ -1,0 +1,301 @@
+run:
+Preemptive Shortest Job First (SJF) -scheduling.
+Enter Number of Processes:
+4
+
+Enter Process Data:
+Enter Pid:1: AT:
+0
+Enter Pid:1: BT:
+5
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:5:
+Pid:1: CT:0:
+
+Enter Process Data:
+Enter Pid:2: AT:
+1
+Enter Pid:2: BT:
+3
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: RBT:3:
+Pid:2: CT:0:
+
+Enter Process Data:
+Enter Pid:3: AT:
+2
+Enter Pid:3: BT:
+4
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:4:
+Pid:3: CT:0:
+
+Enter Process Data:
+Enter Pid:4: AT:
+4
+Enter Pid:4: BT:
+1
+Pid:4: AT:4:
+Pid:4: BT:1:
+Pid:4: RBT:1:
+Pid:4: CT:0:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:5:
+Pid:1: CT:0:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: RBT:3:
+Pid:2: CT:0:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:4:
+Pid:3: CT:0:
+Process Data:
+Pid:4:
+Pid:4: AT:4:
+Pid:4: BT:1:
+Pid:4: RBT:1:
+Pid:4: CT:0:
+
+Gantt Chart:
+Total BT:13
+I=0
+current Time=0
+Ready Queue is empty.
+Pid:1: :0:==:1:
+
+I=1
+current Time=1
+Ready Queue is not empty.
+Ready Queue:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:4:
+Pid:1: CT:1:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: RBT:3:
+Pid:2: CT:0:
+Pid:2: :1:==:2:
+I=2
+current Time=2
+Ready Queue is not empty.
+Ready Queue:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:4:
+Pid:1: CT:1:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: RBT:2:
+Pid:2: CT:2:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:4:
+Pid:3: CT:0:
+Pid:2: :2:==:3:
+I=3
+current Time=3
+No Processes to Enter.
+Ready Queue:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:4:
+Pid:1: CT:1:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: RBT:1:
+Pid:2: CT:3:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:4:
+Pid:3: CT:0:
+Pid:2: :3:==:4:
+I=3
+current Time=4
+Ready Queue is not empty.
+Ready Queue:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:4:
+Pid:1: CT:1:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: RBT:0:
+Pid:2: CT:4:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:4:
+Pid:3: CT:0:
+Process Data:
+Pid:4:
+Pid:4: AT:4:
+Pid:4: BT:1:
+Pid:4: RBT:1:
+Pid:4: CT:0:
+Pid:4: :4:==:5:
+current Time=5
+Processes are entered in queue.
+Ready Queue:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:4:
+Pid:1: CT:1:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:4:
+Pid:3: CT:0:
+Process Data:
+Pid:4:
+Pid:4: AT:4:
+Pid:4: BT:1:
+Pid:4: RBT:0:
+Pid:4: CT:5:
+Pid:1: :5:==:6:
+Time=6
+current Time=6
+Processes are entered in queue.
+Ready Queue:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:3:
+Pid:1: CT:6:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:4:
+Pid:3: CT:0:
+Pid:1: :6:==:7:
+Time=7
+current Time=7
+Processes are entered in queue.
+Ready Queue:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:2:
+Pid:1: CT:7:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:4:
+Pid:3: CT:0:
+Pid:1: :7:==:8:
+Time=8
+current Time=8
+Processes are entered in queue.
+Ready Queue:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:1:
+Pid:1: CT:8:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:4:
+Pid:3: CT:0:
+Pid:1: :8:==:9:
+Time=9
+current Time=9
+Processes are entered in queue.
+Ready Queue:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:0:
+Pid:1: CT:9:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:4:
+Pid:3: CT:0:
+current Time=9
+Ready Queue has sigle Element.
+Pid:3: :9:==:10:
+
+current Time=10
+Ready Queue has sigle Element.
+Pid:3: :10:==:11:
+
+current Time=11
+Ready Queue has sigle Element.
+Pid:3: :11:==:12:
+
+current Time=12
+Ready Queue has sigle Element.
+Pid:3: :12:==:13:
+
+Final Data:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:5:
+Pid:1: RBT:0:
+Pid:1: CT:9:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: RBT:0:
+Pid:2: CT:4:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:4:
+Pid:3: RBT:0:
+Pid:3: CT:13:
+Process Data:
+Pid:4:
+Pid:4: AT:4:
+Pid:4: BT:1:
+Pid:4: RBT:0:
+Pid:4: CT:5:
+--Average TAT=6.0
+--Average WT=2.75
+BUILD SUCCESSFUL (total time: 20 seconds)
