@@ -1,0 +1,151 @@
+run:
+Enter number of Processes:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:4:
+Pid:1: Prio:2:
+Pid:1: CT:0:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: Prio:3:
+Pid:2: CT:0:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:1:
+Pid:3: Prio:4:
+Pid:3: CT:0:
+Process Data:
+Pid:4:
+Pid:4: AT:3:
+Pid:4: BT:5:
+Pid:4: Prio:5:
+Pid:4: CT:0:
+Process Data:
+Pid:5:
+Pid:5: AT:4:
+Pid:5: BT:2:
+Pid:5: Prio:5:
+Pid:5: CT:0:
+i=0
+Time=0
+Ready queue:
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:4:
+Pid:1: Prio:2:
+Pid:1: CT:0:
+pid[1] [0]==[4]
+i=1
+Time=4
+i=2
+Time=4
+i=3
+Time=4
+i=4
+Time=4
+Ready queue:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: Prio:3:
+Pid:2: CT:0:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:1:
+Pid:3: Prio:4:
+Pid:3: CT:0:
+Process Data:
+Pid:4:
+Pid:4: AT:3:
+Pid:4: BT:5:
+Pid:4: Prio:5:
+Pid:4: CT:0:
+Process Data:
+Pid:5:
+Pid:5: AT:4:
+Pid:5: BT:2:
+Pid:5: Prio:5:
+Pid:5: CT:0:
+pid[4] [4]==[9]
+Ready queue:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: Prio:3:
+Pid:2: CT:0:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:1:
+Pid:3: Prio:4:
+Pid:3: CT:0:
+Process Data:
+Pid:5:
+Pid:5: AT:4:
+Pid:5: BT:2:
+Pid:5: Prio:5:
+Pid:5: CT:0:
+pid[5] [9]==[11]
+Ready queue:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: Prio:3:
+Pid:2: CT:0:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:1:
+Pid:3: Prio:4:
+Pid:3: CT:0:
+pid[3] [11]==[12]
+Ready queue:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: Prio:3:
+Pid:2: CT:0:
+pid[2] [12]==[15]
+Process Data:
+Pid:1:
+Pid:1: AT:0:
+Pid:1: BT:4:
+Pid:1: Prio:2:
+Pid:1: CT:4:
+Process Data:
+Pid:2:
+Pid:2: AT:1:
+Pid:2: BT:3:
+Pid:2: Prio:3:
+Pid:2: CT:15:
+Process Data:
+Pid:3:
+Pid:3: AT:2:
+Pid:3: BT:1:
+Pid:3: Prio:4:
+Pid:3: CT:12:
+Process Data:
+Pid:4:
+Pid:4: AT:3:
+Pid:4: BT:5:
+Pid:4: Prio:5:
+Pid:4: CT:9:
+Process Data:
+Pid:5:
+Pid:5: AT:4:
+Pid:5: BT:2:
+Pid:5: Prio:5:
+Pid:5: CT:11:
+Avg TAT=8.2
+Avg WT=5.2
+BUILD SUCCESSFUL (total time: 0 seconds)
