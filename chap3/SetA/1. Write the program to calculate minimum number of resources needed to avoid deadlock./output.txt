@@ -1,0 +1,22 @@
+PS C:\Users\bagew\Documents\OSprograms\Chap3SetA\SetA> cd "c:\Users\bagew\Documents\OSprograms\Chap3SetA\SetA\" ; if ($?) { gcc Q1.c -o Q1 } ; if ($?) { .\Q1 }
+Enter number of Processes:3
+Enter allocated resources for each process:
+Process 1:2
+Process 2:3
+Process 3:1
+disp.
+Process 1:2
+Process 2:3
+Process 3:1
+Enter max resources for each process:
+Process 1:2
+Process 2:3
+Process 3:4
+disp.
+Process 1:2
+Process 2:3
+Process 3:4
+total max=9
+total allocated=6
+minimum Resouces needed to avoid deadlock:4
+PS C:\Users\bagew\Documents\OSprograms\Chap3SetA\SetA> 
